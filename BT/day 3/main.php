@@ -104,21 +104,6 @@
         </div>
         <button class="login__button" type="submit">Login</button>
 
-        <?php
-
-    // Xử lý form đăng nhập
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        $username = $_POST['username'];
-        $password = $_POST['password'];
-
-        // Kiểm tra thông tin đăng nhập
-        if ($username == "admin" && $password == "admin") {
-            echo "<p class = 'success-message'>Xin chào, $username!</p>";
-        } else {
-            echo "<p class='error-message'>Thông tin đăng nhập không chính xác. Xin hãy kiểm tra lại!</p>";
-        }
-    }
-    ?>
 
 
     </form>
