@@ -9,6 +9,9 @@
     <style>
     table {
         border-collapse: collapse;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     td {
