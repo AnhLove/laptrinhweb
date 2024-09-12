@@ -85,8 +85,10 @@
         // Kiểm tra thông tin đăng nhập
         if ($username === 'admin' && $password === 'admin') {
             $user = $username;
+            echo "Xin chao admin!";
         } else {
-            $error = 'Thông tin đăng nhập không chính xác. Xin hãy kiểm tra lại.';
+            $error = '';
+            echo 'Thông tin đăng nhập không chính xác. Xin hãy kiểm tra lại.';
         }
     }
     ?>
